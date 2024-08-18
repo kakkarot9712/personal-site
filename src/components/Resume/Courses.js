@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Course from './Courses/Course';
-
 const getRows = (courses) => courses
   .sort((a, b) => {
     let ret = 0;
@@ -12,19 +10,19 @@ const getRows = (courses) => courses
     else if (a.number < b.number) ret = -1;
     return ret;
   })
-  .map((course, idx) => (
-    <Course
-      data={course}
-      key={course.title}
-      last={idx === courses.length - 1}
-    />
+  .map((course) => (
+    <article key={course.title} className="certidegree-container">
+      <li style={{ listStyleType: 'square' }}>
+        <a href={course.link}>{course.title} </a>by {course.university}
+      </li>
+    </article>
   ));
 
 const Courses = ({ data }) => (
   <div className="courses">
     <div className="link-to" id="courses" />
     <div className="title">
-      <h3>Selected Courses</h3>
+      <h3>Certifications</h3>
     </div>
     <ul className="course-list">{getRows(data)}</ul>
   </div>

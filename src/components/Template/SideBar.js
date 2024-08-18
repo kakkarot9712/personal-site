@@ -12,24 +12,21 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
+        <h2>Vikalp Gandha</h2>
         <p>
-          <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+          <a href="mailto:vikalpgandha9712@gmail.com">vikalpgandha9712@gmail.com</a>
         </p>
       </header>
     </section>
-
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Michael. I am a{' '}
-        <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-        Alumni, and the VP of Engineering at{' '}
-        <a href="https://smileidentity.com">Smile Identity</a>. Previously, I
-        was the co-founder and CTO of <a href="https://arthena.com">Arthena</a>,
-        co-founder of <a href="https://matroid.com">Matroid</a>, and worked at{' '}
-        <a href="https://planet.com">Planet</a> and{' '}
-        <a href="https://facebook.com">Facebook</a>.
+        Hi, I&apos;m Vikalp. I am a{' '}
+        fullstack Developer with over 1.5 years of experience in MERN Stack development,{' '}
+        specializing in backend technologies.{' '}
+        Proficient in ReactJS, Next.js, Node.js, Ethereum blockchain development,{' '}
+        Solana Blockchain Development and GPT AI-related libraries such as
+        Langchain.
       </p>
       <ul className="actions">
         <li>
@@ -49,7 +46,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.
+        &copy; Vikalp Gandha <Link to="/">vikalpg.in</Link>.
       </p>
     </section>
   </section>
