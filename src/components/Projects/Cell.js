@@ -1,3 +1,5 @@
+// 'jsx-closing-bracket-location': 1
+// "operator-linebreak":0
 import React from 'react';
 import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
@@ -13,9 +15,7 @@ const Cell = ({ data }) => (
           {dayjs(data.date).format('MMMM, YYYY')}
         </time>
       </header>
-      <a href={data.link} className="image">
-        <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
-      </a>
+      {data.image && <a href={data.link} className="image"><img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} /></a>}
       <div className="description">
         <p>{data.desc}</p>
       </div>

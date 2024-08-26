@@ -10,7 +10,7 @@ const validateText = (text) => {
 };
 
 const messages = [
-  'vikalpgandha9712',
+  'contact',
   // 'hi',
   // 'hello',
   // 'hola',
@@ -86,9 +86,9 @@ const EmailLink = ({ loopMessage }) => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => idx < messages.length && setIsActive(true)}
     >
-      <a href={validateText(message) ? `mailto:${message}@gmail.com` : ''}>
+      <a href={validateText(message) ? `mailto:${message}@vikalpg.in` : ''}>
         <span>{message}</span>
-        <span>@gmail.com</span>
+        <span>@vikalpg.in</span>
       </a>
     </div>
   );

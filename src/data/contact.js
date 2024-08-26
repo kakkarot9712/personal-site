@@ -15,11 +15,6 @@ const data = [
     icon: faGithub,
   },
   // {
-  //   link: 'https://facebook.com/d',
-  //   label: 'Facebook',
-  //   icon: faFacebookF,
-  // },
-  // {
   //   link: 'https://www.instagram.com/dangelosaurus/',
   //   label: 'Instagram',
   //   icon: faInstagram,
@@ -29,18 +24,13 @@ const data = [
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
-  // {
-  //   link: 'https://angel.co/michael-d-angelo',
-  //   label: 'Angel List',
-  //   icon: faAngellist,
-  // },
   {
     link: 'https://twitter.com/vikalpgandha',
     label: 'Twitter',
     icon: faTwitter,
   },
   {
-    link: 'mailto:vikalpgandha9712@gmail.com',
+    link: 'mailto:contact@vikalpg.in',
     label: 'Email',
     icon: faEnvelope,
   },
