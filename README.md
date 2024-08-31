@@ -1,6 +1,6 @@
 # Personal Website
 
-Welcome to my [personal website]()! This is an [MIT licensed](https://github.com/mldangelo/personal-site/blob/main/LICENSE) React-based Jamstack application. It offers a simple interface, easy modifications, static export capabilities.
+Welcome to my [personal website](https://vikalpg.in)! This is an [MIT licensed](https://github.com/mldangelo/personal-site/blob/main/LICENSE) React-based Jamstack application. It offers a simple interface, easy modifications, static export capabilities.
 
 ## 🔧 Dependencies
 
