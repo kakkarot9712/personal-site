@@ -22,11 +22,12 @@ const SideBar = () => (
       <h2>About</h2>
       <p>
         Hi, I&apos;m Vikalp. I am a{' '}
-        fullstack Developer with over 1.5 years of experience in MERN Stack development,{' '}
-        specializing in backend technologies.{' '}
-        Proficient in ReactJS, Next.js, Node.js, Ethereum blockchain development,{' '}
-        Solana Blockchain Development and GPT AI-related libraries such as
-        Langchain.
+        Fullstack Developer with over 2 years of experience in full-stack development,
+        specializing in backend technologies. Proficient in ReactJS, Next.js, Node.js,
+        Ethereum blockchain development, Solana Blockchain Development
+        and GPT AI-related libraries such as Langchain.
+        Currently learning Go and exploring other backend languages.
+        Passionate about building scalable and efficient backend systems.
       </p>
       <ul className="actions">
         <li>

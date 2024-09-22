@@ -1,5 +1,37 @@
 const data = [
   {
+    title: 'Simple Redis Server (In Progress)',
+    subtitle: 'Simple Redis Server Created in Go Using CodeCrafter Platform.',
+    image: '/images/projects/redisgo.jpeg',
+    link: 'https://github.com/kakkarot9712/simple_redis_go',
+    date: '2024-09-01',
+    desc:
+      'This is a Redis clone with support for key-value data storage, made using Go, '
+      + 'Implemented Redis Serialisation Protocol (RESP) to encode and decode messages, ',
+  },
+  {
+    title: 'Simple Git CLI',
+    subtitle: 'Simple Git CLI Created in Go Using CodeCrafter Platform.',
+    image: '/images/projects/gitgo.jpeg',
+    link: 'https://github.com/kakkarot9712/simple-git-go',
+    date: '2024-09-01',
+    desc:
+      'This is a simplified version of Git which I built to understand version control system mechanics, '
+      + 'uses Git’s internal data structures like Blob Objects, Tree Objects, Commit Objects, '
+      + 'Has support of basic command like init, cat-file, hash-object, ls-tree, write-tree, commit-tree and clone. ',
+  },
+  {
+    title: 'Simple DNS Server',
+    subtitle: 'Simple DNS Server Created in Go Using CodeCrafter Platform.',
+    image: '/images/projects/dnsgo.jpeg',
+    link: 'https://github.com/kakkarot9712/simple-dns-server-go',
+    date: '2024-09-01',
+    desc:
+      'This is a fully functioning baisc DNS server made from scratch as part of CodeCrafters "Build Your Own X" series, '
+      + 'Has a core DNS functionalities including request parsing, record handling, and response generation and request forwarding, '
+      + 'Used Go`s networking libraries to manage UDP connections',
+  },
+  {
     title: 'Expense Tracker Bot',
     subtitle: 'Basic Expense tracker bot in telegra,.',
     image: '/images/projects/bot.gif',
