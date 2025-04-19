@@ -1,6 +1,6 @@
 const data = [
   {
-    title: 'Simple Redis Server (In Progress)',
+    title: 'Simple Redis Server',
     subtitle: 'Simple Redis Server Created in Go Using CodeCrafter Platform.',
     image: '/images/projects/redisgo.jpeg',
     link: 'https://github.com/kakkarot9712/simple_redis_go',
@@ -9,7 +9,7 @@ const data = [
       'This is a Redis clone with support for key-value data storage, made using Go, '
       + 'Implemented Redis Serialisation Protocol (RESP) to encode and decode messages, ',
     bullets: ['Test', '123'],
-    categories: ["CLI tools", "Backend"],
+    categories: ['Backend'],
     languages: ['Go'],
   },
   {
@@ -22,7 +22,7 @@ const data = [
       'This is a simplified version of Git which I built to understand version control system mechanics, '
       + 'uses Git’s internal data structures like Blob Objects, Tree Objects, Commit Objects, '
       + 'Has support of basic command like init, cat-file, hash-object, ls-tree, write-tree, commit-tree and clone. ',
-    categories: ["CLI tools", "Backend"],
+    categories: ['CLI tools', 'Backend'],
     languages: ['Go'],
   },
   {
@@ -35,7 +35,7 @@ const data = [
       'This is a fully functioning baisc DNS server made from scratch as part of CodeCrafters "Build Your Own X" series, '
       + 'Has a core DNS functionalities including request parsing, record handling, and response generation and request forwarding, '
       + 'Used Go`s networking libraries to manage UDP connections',
-    categories: ["CLI tools", "Backend"],
+    categories: ['Backend'],
     languages: ['Go'],
   },
   {
@@ -47,7 +47,7 @@ const data = [
     desc:
       'this bot is made using Teloxide Library written in Rust, '
       + 'Uses Database to store current expenses, ',
-    categories: ["Web based"],
+    categories: ['Backend'],
     languages: ['Rust'],
   },
   {
@@ -62,8 +62,8 @@ const data = [
       + 'Mobile Responsive Site '
       + 'No 3rd Party CSS Libraries are used. '
       + 'This website shows my languages, tools and contact details',
-    categories: ["Web based"],
-    languages: ['Next.js', 'JavaScript', 'TypeScript'],
+    categories: ['Web based'],
+    languages: ['Next.js', 'TypeScript'],
   },
   {
     title: 'The Pig Game',
@@ -76,7 +76,7 @@ const data = [
       + 'Fully SPA App made using React.js, '
       + 'This Pig game is played using 1 Dice. '
       + 'player whoever first scores 100 will be declared winner.',
-    categories: ["Web based"],
+    categories: ['Web based'],
     languages: ['React.js', 'JavaScript'],
   },
   {
@@ -89,7 +89,7 @@ const data = [
       'Track your expenses with beautiful UI. '
       + 'Displays Graph so that you can compare expenses with ease. '
       + 'Graph displays monthly breakdown for all expenses user added.',
-    categories: ["Web based", "CLI tools"],
+    categories: ['Web based'],
     languages: ['Angular', 'TypeScript'],
   },
   {
@@ -102,7 +102,7 @@ const data = [
       'This is just demo of Banking App, no real interaction is implimented. '
       + 'made using React.js. '
       + 'This website allows users to login into 2 demo accounts and lets user perform some action like transferring money to other account',
-    categories: ["Web based", "CLI tools"],
+    categories: ['Web based'],
     languages: ['React.js', 'JavaScript'],
   },
   {
@@ -114,7 +114,7 @@ const data = [
     desc:
       'Simple tic tac toe game. '
       + 'This website is made using Angular and bootstrap 5. ',
-    categories: ["Web based", "CLI tools"],
+    categories: ['Web based'],
     languages: ['Angular', 'TypeScript'],
   },
   // {

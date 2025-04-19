@@ -38,7 +38,7 @@ class Cell extends React.Component {
             <p>{data.desc}</p>
             {data.bullets?.length && (
               <div>
-                <button onClick={this.toggleBulletsVisibility}> 
+                <button type="button" onClick={this.toggleBulletsVisibility}>
                   {isBulletsVisible ? 'Hide Description' : 'Show Description'}
                 </button>
                 <div className="description-normal" style={{ display: isBulletsVisible ? 'block' : 'none' }}>

@@ -1,36 +1,36 @@
 const skills = [
   {
-    title: 'Javascript',
+    title: 'JavaScript',
     competency: 4,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    category: ['Web Development', 'Languages', 'JavaScript'],
     displayInProject: true,
   },
   {
     title: 'Node.JS',
     competency: 5,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development', 'JavaScript'],
   },
   {
-    title: 'React',
+    title: 'React.js',
+    displayInProject: true,
     competency: 4,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development', 'JavaScript'],
   },
   {
-    title: 'Next.JS',
+    title: 'Next.js',
+    displayInProject: true,
     competency: 3,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development', 'JavaScript'],
   },
   {
     title: 'Amazon Web Services',
     competency: 3,
     category: ['Web Development', 'Tools'],
-    displayInProject: true,
   },
   {
     title: 'Render',
     competency: 2,
     category: ['Web Development', 'Tools'],
-    displayInProject: true,
   },
   {
     title: 'Vercel',
@@ -43,7 +43,7 @@ const skills = [
     category: ['Web Development', 'Databases'],
   },
   {
-    title: 'PostgreSQL/SQLite3/SQL/Redshift',
+    title: 'PostgreSQL/SQLite3/SQL',
     competency: 3,
     category: ['Web Development', 'Databases', 'Languages'],
   },
@@ -51,21 +51,19 @@ const skills = [
     title: 'Redis',
     competency: 3,
     category: ['Web Development', 'Databases'],
-    displayInProject: true,
   },
   {
     title: 'Express.JS',
     competency: 4,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development', 'JavaScript'],
   },
   {
     title: 'Git',
     competency: 3,
     category: ['Tools'],
-    displayInProject: true,
   },
   {
-    title: 'Golang',
+    title: 'Go',
     competency: 2,
     category: ['Languages'],
     displayInProject: true,
@@ -99,13 +97,12 @@ const skills = [
   {
     title: 'React Native',
     competency: 3,
-    category: ['Android App Development', 'Javascript'],
+    category: ['Android App Development', 'JavaScript'],
   },
   {
     title: 'Digital Ocean Cloud Compute',
     competency: 4,
     category: ['Tools', 'Web Development'],
-    displayInProject: true,
   },
   {
     title: 'Vultr Cloud Compute',
@@ -143,9 +140,15 @@ const skills = [
   //   category: ['Data Science', 'Python'],
   // },
   {
-    title: 'Typescript',
+    title: 'Angular',
+    competency: 2,
+    category: ['Web Development', 'Languages', 'TypeScript'],
+    displayInProject: true,
+  },
+  {
+    title: 'TypeScript',
     competency: 4,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    category: ['Web Development', 'Languages', 'JavaScript'],
     displayInProject: true,
   },
   {
@@ -157,7 +160,6 @@ const skills = [
     title: 'Python',
     competency: 3,
     category: ['Languages', 'Python', 'ML Engineering'],
-    displayInProject: true,
   },
   // {
   //   title: 'Ruby',
@@ -198,7 +200,6 @@ const skills = [
     title: 'GraphQL',
     competency: 2,
     category: ['Web Development', 'Databases'],
-    displayInProject: true,
   },
   // {
   //   title: 'Pandas',

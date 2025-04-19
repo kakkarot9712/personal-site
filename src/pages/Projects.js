@@ -29,7 +29,6 @@ const Projects = () => {
       (project) => activeSkill === 'All'
            || (project.languages && project.languages.includes(activeSkill)),
     );
-  console.log(projectsToShow);
   return (
     <Main
       title="Projects"
@@ -54,7 +53,6 @@ const Projects = () => {
         <div style={{ marginTop: '20px' }} /> {/* Add some space */}
         <h3 style={{ fontSize: '0.9em' }}>Skills:</h3>
         <SkillFilters
-
           activeSkill={activeSkill}
           handleClick={handleSkillClick}
         />

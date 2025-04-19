@@ -2,10 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const CategoryFilters = ({ activeCategory, handleClick }) => {
-  const categories = ["Web based", "Backend", "CLI tools"];
+  const categories = ['Web based', 'Backend', 'CLI tools'];
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', padding: '20px 0', flexWrap: 'wrap' }}>
+    <div
+      style={{
+        display: 'flex', justifyContent: 'center', padding: '20px 0', flexWrap: 'wrap',
+      }}
+    >
       {categories.map((category) => (
         <button
           key={category}
