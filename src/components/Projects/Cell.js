@@ -61,6 +61,8 @@ Cell.propTypes = { // propTypes outside the class
     date: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired,
     bullets: PropTypes.arrayOf(PropTypes.string),
+    categories: PropTypes.arrayOf(PropTypes.string),
+    languages: PropTypes.arrayOf(PropTypes.string),
   }).isRequired,
 }; // propTypes closing bracket
 

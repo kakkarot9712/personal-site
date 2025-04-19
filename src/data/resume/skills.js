@@ -3,6 +3,7 @@ const skills = [
     title: 'Javascript',
     competency: 4,
     category: ['Web Development', 'Languages', 'Javascript'],
+    displayInProject: true,
   },
   {
     title: 'Node.JS',
@@ -23,11 +24,13 @@ const skills = [
     title: 'Amazon Web Services',
     competency: 3,
     category: ['Web Development', 'Tools'],
+    displayInProject: true,
   },
   {
     title: 'Render',
     competency: 2,
     category: ['Web Development', 'Tools'],
+    displayInProject: true,
   },
   {
     title: 'Vercel',
@@ -48,6 +51,7 @@ const skills = [
     title: 'Redis',
     competency: 3,
     category: ['Web Development', 'Databases'],
+    displayInProject: true,
   },
   {
     title: 'Express.JS',
@@ -58,14 +62,17 @@ const skills = [
     title: 'Git',
     competency: 3,
     category: ['Tools'],
+    displayInProject: true,
   },
   {
     title: 'Golang',
     competency: 2,
     category: ['Languages'],
+    displayInProject: true,
   },
   {
     title: 'Rust',
+    displayInProject: true,
     competency: 2,
     category: ['Languages', 'Blockchain'],
   },
@@ -98,6 +105,7 @@ const skills = [
     title: 'Digital Ocean Cloud Compute',
     competency: 4,
     category: ['Tools', 'Web Development'],
+    displayInProject: true,
   },
   {
     title: 'Vultr Cloud Compute',
@@ -138,6 +146,7 @@ const skills = [
     title: 'Typescript',
     competency: 4,
     category: ['Web Development', 'Languages', 'Javascript'],
+    displayInProject: true,
   },
   {
     title: 'HTML + SASS/SCSS/CSS',
@@ -148,6 +157,7 @@ const skills = [
     title: 'Python',
     competency: 3,
     category: ['Languages', 'Python', 'ML Engineering'],
+    displayInProject: true,
   },
   // {
   //   title: 'Ruby',
@@ -188,6 +198,7 @@ const skills = [
     title: 'GraphQL',
     competency: 2,
     category: ['Web Development', 'Databases'],
+    displayInProject: true,
   },
   // {
   //   title: 'Pandas',
