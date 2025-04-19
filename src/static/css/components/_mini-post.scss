@@ -8,8 +8,8 @@
 .cell-container {
   position: relative;
 
-  .description {
-    position: absolute;
+  .description, .description-normal {
+    // position: absolute;
     padding: 0;
     bottom: 0;
     border-top: solid 1px _palette(border);
@@ -29,6 +29,16 @@
     p:hover {
       background-color: rgba(255, 255, 255, 0.9);
     }
+
+    .not-p {
+      padding-top: initial;
+      padding-bottom: initial;
+    }
+  }
+
+  .description-normal {
+    // position: relative;
+    padding: 1.25em 0;
   }
 
   @media (max-width: 480px) {
