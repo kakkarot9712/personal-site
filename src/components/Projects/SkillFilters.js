@@ -23,6 +23,7 @@ const SkillFilters = ({ activeSkill, handleClick }) => {
           }`}
           type="button"
           onClick={() => handleClick(activeSkill === skill.title ? 'All' : skill.title)}
+          title={activeSkill === skill.title ? 'Deselect' : 'Select'}
         >
           {skill.title}
         </button>
