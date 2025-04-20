@@ -8,7 +8,6 @@ const data = [
     desc:
       'This is a Redis clone with support for key-value data storage, made using Go, '
       + 'Implemented Redis Serialisation Protocol (RESP) to encode and decode messages, ',
-    bullets: ['Test', '123'],
     categories: ['Backend'],
     languages: ['Go'],
   },

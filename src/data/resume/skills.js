@@ -82,7 +82,7 @@ const skills = [
   {
     title: 'Docker/Docker Compose',
     competency: 3,
-    category: ['Tools', 'Data Engineering'],
+    category: ['Tools', 'Web Development'],
   },
   {
     title: 'Azure Serverless Functions',

@@ -13,17 +13,17 @@
  */
 const work = [
   {
+    name: 'InheritX Solutions Pvt. Ltd.',
+    position: 'Software Engineer',
+    url: 'https://www.inheritx.com/',
+    startDate: '2025-01-01',
+  },
+  {
     name: 'Clementius LLP',
     position: 'Software Engineer',
     url: 'https://clementius.com',
     startDate: '2023-01-01',
-    highlights: [
-      'Solely Developed a real-time car diagnostics app using React Native that reads and displays speed and RPM in real-time, utilizing a Bluetooth OBD II adapter',
-      'Created LangChain-based document chat app for contextua question-answering.',
-      'Published client APIs as SaaS on Azure Marketplace using Azure Serverless functions and Subscription Fullfillment APIs.',
-      'Actively participated in Hyperledger Besu private blockchain implementation with QBFT consensus.',
-      'eveloped POC to impliment Bitcoin Inscription Flow using ReactJS, NodeJS and ord library.',
-    ],
+    endDate: '2025-01-01',
   },
 ];
 
