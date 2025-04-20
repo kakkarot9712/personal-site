@@ -1,23 +1,26 @@
 const skills = [
   {
-    title: 'Javascript',
+    title: 'JavaScript',
     competency: 4,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    category: ['Web Development', 'Languages', 'JavaScript'],
+    displayInProject: true,
   },
   {
     title: 'Node.JS',
     competency: 5,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development', 'JavaScript'],
   },
   {
-    title: 'React',
+    title: 'React.js',
+    displayInProject: true,
     competency: 4,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development', 'JavaScript'],
   },
   {
-    title: 'Next.JS',
+    title: 'Next.js',
+    displayInProject: true,
     competency: 3,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development', 'JavaScript'],
   },
   {
     title: 'Amazon Web Services',
@@ -40,7 +43,7 @@ const skills = [
     category: ['Web Development', 'Databases'],
   },
   {
-    title: 'PostgreSQL/SQLite3/SQL/Redshift',
+    title: 'PostgreSQL/SQLite3/SQL',
     competency: 3,
     category: ['Web Development', 'Databases', 'Languages'],
   },
@@ -52,7 +55,7 @@ const skills = [
   {
     title: 'Express.JS',
     competency: 4,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development', 'JavaScript'],
   },
   {
     title: 'Git',
@@ -60,12 +63,14 @@ const skills = [
     category: ['Tools'],
   },
   {
-    title: 'Golang',
+    title: 'Go',
     competency: 2,
     category: ['Languages'],
+    displayInProject: true,
   },
   {
     title: 'Rust',
+    displayInProject: true,
     competency: 2,
     category: ['Languages', 'Blockchain'],
   },
@@ -77,7 +82,7 @@ const skills = [
   {
     title: 'Docker/Docker Compose',
     competency: 3,
-    category: ['Tools', 'Data Engineering'],
+    category: ['Tools', 'Web Development'],
   },
   {
     title: 'Azure Serverless Functions',
@@ -92,7 +97,7 @@ const skills = [
   {
     title: 'React Native',
     competency: 3,
-    category: ['Android App Development', 'Javascript'],
+    category: ['Android App Development', 'JavaScript'],
   },
   {
     title: 'Digital Ocean Cloud Compute',
@@ -135,9 +140,16 @@ const skills = [
   //   category: ['Data Science', 'Python'],
   // },
   {
-    title: 'Typescript',
+    title: 'Angular',
+    competency: 2,
+    category: ['Web Development', 'Languages', 'TypeScript'],
+    displayInProject: true,
+  },
+  {
+    title: 'TypeScript',
     competency: 4,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    category: ['Web Development', 'Languages', 'JavaScript'],
+    displayInProject: true,
   },
   {
     title: 'HTML + SASS/SCSS/CSS',

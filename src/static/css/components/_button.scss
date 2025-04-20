@@ -20,9 +20,9 @@ button,
       "color #{_duration(transition)} ease"
     )
   );
-  background-color: transparent;
-  border: 0;
-  box-shadow: inset 0 0 0 1px _palette(border);
+  background: none;
+  border: none;
+  box-shadow: none;
   color: _palette(fg-bold) !important;
   cursor: pointer;
   display: inline-block;
@@ -39,13 +39,11 @@ button,
   white-space: nowrap;
 
   &:hover {
-    box-shadow: inset 0 0 0 1px _palette(accent);
-    color: _palette(accent) !important;
-
-    &:active {
-      background-color: transparentize(_palette(accent), 0.95);
-    }
+    color: darken(_palette(fg-bold), 15%) !important;
+    text-decoration: underline;
   }
+
+
 
   &:before,
   &:after {

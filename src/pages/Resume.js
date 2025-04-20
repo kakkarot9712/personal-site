@@ -34,13 +34,13 @@ const Resume = () => (
           <h2>
             <Link to="resume">Resume</Link>
           </h2>
-          <div className="link-container">
+          {/* <div className="link-container">
             {Object.keys(sections).map((sec) => (
               <h4 key={sec}>
                 <a href={`#${sec.toLowerCase()}`}>{sec}</a>
               </h4>
             ))}
-          </div>
+          </div> */}
         </div>
       </header>
       {Object.entries(sections).map(([name, Section]) => (

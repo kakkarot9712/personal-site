@@ -1,11 +1,7 @@
 # Intro
 
-I am the Software Engineer at Clementius LLP, I have over 1.5 years of experience in full-stack development, specializing in backend technologies. Proficient in
-ReactJS, Next.js, Node.js, Ethereum blockchain development, Solana Blockchain Development and GPT AI-related libraries such as Langchain. Currently learning Go and exploring other backend languages. Passionate about building scalable and efficient backend systems. 
-
-# Currently Learning
-
-- [Golang](https://go.dev)
+I am the Software Engineer at InheritX Solutions, I have over 2.5 years of experience in full-stack development, specializing in backend technologies. Proficient in
+GoLang, Node.js, ReactJS, Next.js, Ethereum blockchain development, Solana Blockchain Development and GPT AI-related libraries such as Langchain. Currently exploring other backend languages. Passionate about building scalable and efficient backend systems. 
 
 # I like
 
