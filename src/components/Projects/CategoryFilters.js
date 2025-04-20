@@ -18,6 +18,7 @@ const CategoryFilters = ({ activeCategory, handleClick }) => {
           }`}
           type="button"
           onClick={() => handleClick(activeCategory === category ? 'All' : category)}
+          title={activeCategory === category ? 'Deselect' : 'Select'}
         >
           {category}
         </button>
