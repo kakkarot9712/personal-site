@@ -22,12 +22,12 @@ const SideBar = () => (
       <h2>About</h2>
       <p>
         Hi, I&apos;m Vikalp. I am a{' '}
-        Fullstack Developer with over 2.5 years of experience in full-stack development,
-        specializing in backend technologies. Proficient in Golang, Node.js, ReactJS, Next.js,
-        Ethereum blockchain development, Solana Blockchain Development
-        and GPT AI-related libraries such as Langchain.
-        Currently exploring other backend languages.
-        Passionate about building scalable and efficient backend systems.
+        Backend-focused Software Engineer with ~3.5 years of experience building scalable 
+        backend services and full-stack web applications using Node.js, TypeScript, NestJS, 
+        React, and Next.js. Experienced in designing REST APIs, microservice-oriented architectures, 
+        and cloud-native applications using PostgreSQL, MongoDB, AWS, and Docker. 
+        Skilled in building real-time systems, integrating third-party APIs, and designing scalable backend workflows.
+        Currently exploring container orchestration and DevOps practices using Kubernetes and Helm.
       </p>
       <ul className="actions">
         <li>
