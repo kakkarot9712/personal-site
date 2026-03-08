@@ -50,21 +50,6 @@ const data = [
     languages: ['Rust'],
   },
   {
-    title: 'Portfolio',
-    subtitle: 'My alternative portfolio website made using Next.js.',
-    image: '/images/projects/portfolio.png',
-    link: 'https://portfolio.vikalpg.in',
-    date: '2023-01-01',
-    desc:
-      'Portfolio site made using Next.js, '
-      + 'Uses Database to fetch Skills, '
-      + 'Mobile Responsive Site '
-      + 'No 3rd Party CSS Libraries are used. '
-      + 'This website shows my languages, tools and contact details',
-    categories: ['Web based'],
-    languages: ['Next.js', 'TypeScript'],
-  },
-  {
     title: 'The Pig Game',
     subtitle: 'Basic Pig game made using React.js',
     link: 'https://the-pig-game-theta.vercel.app',

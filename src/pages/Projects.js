@@ -38,10 +38,10 @@ const Projects = () => {
         <header>
           <div className="title">
             <h2 data-testid="heading">
-              <Link to="/projects">Projects</Link>
+              <Link to="/projects"> Personal Projects</Link>
             </h2>
             <p>
-              A selection of projects that I’m not too ashamed of
+              A selection of personal projects that I’m not too ashamed of
             </p>
           </div>
         </header>
